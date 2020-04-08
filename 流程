@@ -1,0 +1,5 @@
+start listen -> stop say
+start say -> stop listen/say
+tablet -> ALTabletService -> webview
+audio -> ALAudioDeviceProxy::subscribe
+video -> ALVideoDeviceProxy::subscribeCamera
